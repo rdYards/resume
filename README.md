@@ -16,7 +16,7 @@ This project was created as a portfolio website to highlight my skills, credenti
 ## Features
 - **Homepage**: An overview of the entire site with sections for credentials, projects, work experience, and skills.
 - **Credentials Page**: Lists educational degrees and certifications.
-- **Projects Page**: Directory of all my projects, each with its own dedicated page providing more detailed information.
+- **Projects Page**: Directory of all my projects.
 - **Project Details**: Individual pages for each project to showcase what technologies were used, the purpose of the project, and my personal take on the development process.
 
 ## Technologies Used
@@ -35,7 +35,7 @@ Ensure you have Node.js installed on your machine. You can download it from [nod
 ### Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/resume-portfolio.git
+   git clone https://github.com/rdYards/resume.git
    cd resume-portfolio
    ```
 2. Install the required dependencies:

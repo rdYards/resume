@@ -1,21 +1,21 @@
 @import "../../style.css";
 
 .resource.light-mode {
-    background-color: var(--background-color-light);
-    color: var(--text-color-dark-primary);
+    background-color: var(--prime-invserse-color);
+    color: var(--text-dark-1);
 }
 .resource.light-mode h2 {
     text-align: left;
-    color: var(--text-color-dark-primary);
+    color: var(--text-dark-1);
 }
 
 .resource.dark-mode {
-    background-color: var(--primary-color);
-    color: var(--text-color-light-primary);
+    background-color: var(--prime-color-1);
+    color: var(--text-light-1);
 }
 .resource.dark-mode h2 {
     text-align: left;
-    color: var(--text-color-light-primary);
+    color: var(--text-light-1);
 }
 
 .resource {
@@ -28,6 +28,7 @@
     overflow: hidden;
     pointer-events: all;
     height: 100%;
+    box-shadow: 0px 0px 15px var(--shadow);
 }
 
 .resource .content {
@@ -85,5 +86,5 @@
     border-radius: 0.5rem;
 }
 .banner_wrapper:hover::after {
-    border-color: var(--accent-color);
+    border-color: var(--accent-color-3);
 }

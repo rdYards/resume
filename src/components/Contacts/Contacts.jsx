@@ -3,39 +3,35 @@ import styles from "./Contacts.module.css";
 import githubLogo from "../../assets/github-logo.svg";
 import mailSendLine from "../../assets/mail-send-line.svg";
 import inIcon from "../../assets/in_icon.svg";
+import pdf from "../../assets/pdf.svg";
 
 export function Contacts() {
   return (
     <div class={styles.contacts}>
-      <a
-        href="https://github.com/rdYards"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img class={styles.icon} src={githubLogo} />
-      </a>
-      <a
-        href="mailto:rdyards@protonmail.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img class={styles.icon} src={mailSendLine} />
-      </a>
-      <a
-        href="https://www.linkedin.com/in/rdyards/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img class={styles.icon} src={inIcon} />
-      </a>
-      <a
-        class={styles.resume}
-        href="/resume/aeastman_Resume.pdf"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Resume
-      </a>
+      <div>Contacts</div>
+      <nav>
+        <a
+          href="https://github.com/rdYards"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img class={styles.icon} src={githubLogo} />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/rdyards/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img class={styles.icon} src={inIcon} />
+        </a>
+        <a
+          href="mailto:rdyards@protonmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img class={styles.icon} src={mailSendLine} />
+        </a>
+      </nav>
     </div>
   );
 }

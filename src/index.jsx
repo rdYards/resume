@@ -5,26 +5,26 @@ import { Header } from "./components/Header.jsx";
 import { Home } from "./pages/Home/index.jsx";
 import { Credentials } from "./pages/Credentials/index.jsx";
 import { Project } from "./pages/Project/index.jsx";
-import { ResumeWebsite } from "./pages/Projects/resume-website.jsx";
-import { Grasshopper } from "./pages/Projects/grasshopper.jsx";
-import { EldritchTrains } from "./pages/Projects/eldritch-trains.jsx";
-import { HomeLab } from "./pages/Projects/home-lab.jsx";
 import { NotFound } from "./pages/_404.jsx";
+import { Contacts } from "./components/Contacts/Contacts";
 import "./style.css";
 
 export function App() {
   return (
     <LocationProvider>
-      <Header />
+      <div class="sidebar">
+        <img
+          src="/resume/spaceshuttle_rocket_spaceship_icon.svg"
+          alt="Rocket Icon"
+        />
+        <Header />
+        <Contacts />
+      </div>
       <main>
         <Router>
           <Route path="/resume/" component={Home} />
           <Route path="/resume/credentials" component={Credentials} />
           <Route path="/resume/project" component={Project} />
-          <Route path="/resume/project/eldritch-trains" component={EldritchTrains} />
-          <Route path="/resume/project/grasshopper" component={Grasshopper} />
-          <Route path="/resume/project/home-lab" component={HomeLab} />
-          <Route path="/resume/project/resume-website" component={ResumeWebsite} />
           <Route default component={NotFound} />
         </Router>
       </main>

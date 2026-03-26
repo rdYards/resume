@@ -20,6 +20,7 @@
     height: 200px;
     object-fit: cover;
     border-radius: 8px;
+    box-shadow: none;
 }
 
 .content {
@@ -32,17 +33,17 @@
 }
 
 .content.light-mode {
-    background-color: var(--background-color-light);
-    color: var(--text-color-dark-primary);
+    background-color: var(--prime-invserse-color);
+    color: var(--text-dark-1);
 } .content.light-mode h2 {
     text-align: left;
-    color: var(--text-color-dark-primary);
+    color: var(--text-dark-1);
 }
 
 .content.dark-mode {
-    background-color: var(--primary-color);
-    color: var(--text-color-light-primary);
+    background-color: var(--prime-color-1);
+    color: var(--text-light-1);
 } .content.dark-mode h2 {
     text-align: left;
-    color: var(--text-color-light-primary);
+    color: var(--text-light-1);
 }

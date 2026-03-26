@@ -5,6 +5,7 @@
     align-self: center;
     position: relative;
     max-width: 60%;
+    margin: auto;
 }
 
 .vertical_line {
@@ -27,8 +28,9 @@
     text-decoration: none;
     color: inherit;
     text-align: left;
-    background-color: var(--background-color-light);
+    background-color: var(--prime-invserse-color);
     z-index: 2;
+    box-shadow: 0px 0px 15px var(--shadow);
 }
 .timeline_item::after {
     content: "";
@@ -44,7 +46,11 @@
     border-radius: 0.5rem;
 }
 .timeline_item:hover::after {
-    border-color: var(--accent-color);
+    border-color: var(--accent-color-3);
+}
+
+.timeline_item img {
+    box-shadow: none;
 }
 
 .icon {
@@ -56,7 +62,7 @@
 }
 
 .content {
-    color: var(--text-color-dark-secondary);
+    color: var(--text-dark-2);
     background-color: transparent;
     padding: 1rem;
     border-radius: 0.5rem;
@@ -83,7 +89,7 @@
 
 .skill {
     background-color: var(--accent-color-2);
-    color: var(--text-color-dark-secondary);
+    color: var(--text-dark-2);
     padding: 0.25rem 0.5rem;
     border-radius: 0.5rem;
     margin-right: 0.5rem;

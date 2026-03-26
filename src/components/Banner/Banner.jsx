@@ -44,6 +44,11 @@ export function Banner(props) {
           <h2>{props.title}</h2>
           <p>{props.description}</p>
         </div>
+        <div class="skills-banner">
+          {props.skills && props.skills.map((skill, index) => (
+            <span key={index} class="banner-skills">{skill}</span>
+          ))}
+        </div><br />
       </a>
     </div>
   );

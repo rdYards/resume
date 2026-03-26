@@ -6,7 +6,7 @@ export function NotFound() {
       <h3>Special thanks to the following websites for inspiration.</h3>
       <a
         href="https://robertsspaceindustries.com/en/"
-        class="button-secondary"
+        class="button"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -14,7 +14,7 @@ export function NotFound() {
       </a>
       <a
         href="https://maddieharris.org/"
-        class="button-secondary"
+        class="button"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -22,13 +22,20 @@ export function NotFound() {
       </a>
       <a
         href="https://github.com/rafgraph/spa-github-pages"
-        class="button-secondary"
+        class="button"
         target="_blank"
         rel="noopener noreferrer"
       >
         rafgraph/spa-github-pages
       </a>
-      
+      <a
+        href="https://tedawf.com/"
+        class="button"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        tedawf.com
+      </a>
     </section>
   );
 }

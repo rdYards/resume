@@ -6,7 +6,6 @@ export function Header() {
 
   return (
     <header>
-      <img src="/resume/spaceshuttle_rocket_spaceship_icon.svg" alt="Rocket Icon" />
       <nav>
         <a href="/resume/" class={url == "/" && "active"}>
           Home

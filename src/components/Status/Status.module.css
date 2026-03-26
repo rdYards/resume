@@ -11,7 +11,7 @@
     max-width: 150px;
     pointer-events: none;
     margin: 0 1rem;
-    color: var(--text-color-dark-secondary);
+    color: var(--text-dark-2);
     align-items: center;
 }
 .inprogress {
