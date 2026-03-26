@@ -3,7 +3,6 @@ import styles from "./Contacts.module.css";
 import githubLogo from "../../assets/github-logo.svg";
 import mailSendLine from "../../assets/mail-send-line.svg";
 import inIcon from "../../assets/in_icon.svg";
-import pdf from "../../assets/pdf.svg";
 
 export function Contacts() {
   return (

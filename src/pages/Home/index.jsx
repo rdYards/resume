@@ -2,6 +2,7 @@ import "./style.css";
 import { Banner } from "../../components/Banner/Banner";
 import { CredBanner } from "../../components/CredBanner/CredBanner";
 import { Timeline } from "../../components/Timeline/Timeline";
+import { Footer } from "../../components/Footer";
 
 // Import image assets
 import codeImg from "../../assets/code.png";
@@ -198,6 +199,7 @@ export function Home() {
           See More
         </a>
       </section>
+      <Footer />
     </>
   );
 }
