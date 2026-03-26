@@ -56,11 +56,11 @@ body {
     z-index: 1000;
     row-gap: 1rem;
     margin: 0 0 0 auto;
+    padding-left: 20px;
 }
 .sidebar img {
     box-shadow: none;
     padding-top: 2.5rem;
-    transform: rotate(15deg);
 }
 .sidebar a img {
     box-shadow: none;
@@ -75,6 +75,7 @@ main {
     width: calc(100% - 200px);
     max-width: 1200px;
     margin: 0 auto 0 2.5rem;
+    padding-right: 20px;
 }
 
 section {
