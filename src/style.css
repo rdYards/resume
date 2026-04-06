@@ -172,15 +172,42 @@ img {
 }
 
 @media (max-width: 960px) {
-    #app {
-        flex-direction: column;
-        position: relative;
-    }
-
     .sidebar {
+        position: fixed;
+        flex-direction: row-reverse;
+        top: auto;
+        bottom: 0;
+        right: 0;
+        height: auto;
+        max-height: 5rem;
+        column-gap: 2rem;
+        align-items: center;
+        padding: 0.5rem;
         width: 100%;
-        height: 0;
+    }
+    
+    .sidebar img {
+        padding: 0;
         margin: 0;
+    }
+    
+    .sidebar header {
+        padding: .5rem;
+    }
+    
+    .sidebar header a {
+        font-size: 1.5rem;
+    }
+    
+    .sidebar nav {
+        display: flex;
+        flex-direction: row-reverse;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    
+    .sidebar nav img {
+        padding: .5rem;
     }
 
     main {

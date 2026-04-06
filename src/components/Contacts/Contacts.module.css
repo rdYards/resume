@@ -31,3 +31,9 @@
     max-width: 35px;
     pointer-events: none;
 }
+
+@media (max-width: 960px) {
+    #title {
+        display: none;
+    }
+}

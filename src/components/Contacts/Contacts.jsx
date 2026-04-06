@@ -7,7 +7,7 @@ import inIcon from "../../assets/in_icon.svg";
 export function Contacts() {
   return (
     <div class={styles.contacts}>
-      <div>Contacts</div>
+      <div id={styles.title}>Contacts</div>
       <nav>
         <a
           href="https://github.com/rdYards"

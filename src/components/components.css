@@ -77,7 +77,7 @@ footer .icon {
 }
 
 @media (max-width: 960px) {
-    header {
+    /*header {
         position: fixed;
         bottom: 0;
         right: 0;
@@ -104,5 +104,8 @@ footer .icon {
         padding: 0.25rem 0.75rem;
         border-radius: 15px;
         font-size: 1.6rem;
+    }*/
+    footer {
+        padding: 2.5rem;
     }
 }
