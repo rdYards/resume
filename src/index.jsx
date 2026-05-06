@@ -16,6 +16,7 @@ export function App() {
         <img
           src="/resume/spaceshuttle_rocket_spaceship_icon.svg"
           alt="Rocket Icon"
+          id="SidebarIcon"
         />
         <Header />
         <Contacts />

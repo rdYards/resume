@@ -77,34 +77,6 @@ footer .icon {
 }
 
 @media (max-width: 960px) {
-    /*header {
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        width: 100%;
-    }
-    header,
-    header nav {
-        display: flex;
-        flex-direction: row-reverse;
-        border-radius: 0;
-        box-shadow: none;
-    }
-    header nav {
-        margin: 0;
-        column-gap: 3%;
-    }
-    header img {
-        margin-left: 2%;
-        max-height: 50px;
-        transform: rotate(20deg);
-    }
-    header nav a {
-        margin: 0;
-        padding: 0.25rem 0.75rem;
-        border-radius: 15px;
-        font-size: 1.6rem;
-    }*/
     footer {
         padding: 2.5rem;
     }

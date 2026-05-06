@@ -2,7 +2,7 @@
 
 .contacts {
     background-color: var(--prime-invserse-color);
-    padding: .5rem;
+    padding: 0.5rem;
     border-radius: 20px;
     align-items: center;
     text-align: center;
@@ -21,7 +21,7 @@
     margin: 0;
 }
 .contacts div {
-    margin: 0 0 .5rem 0;
+    margin: 0 0 0.5rem 0;
     font-weight: bold;
 }
 
@@ -35,5 +35,24 @@
 @media (max-width: 960px) {
     #title {
         display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .contacts {
+        padding: 0;
+    }
+    
+    .contact nav {
+        gap: 0.25rem;
+    }
+    
+    .contacts nav a img {
+        padding: .25rem;
+    }
+
+    .icon {
+        max-height: 30px;
+        max-width: 30px;
     }
 }

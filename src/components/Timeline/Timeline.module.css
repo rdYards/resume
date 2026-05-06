@@ -95,3 +95,9 @@
     margin-right: 0.5rem;
     margin-top: 0.25rem;
 }
+
+@media (max-width: 960px) {
+    .timeline_container {
+        max-width: 90%;
+    }
+}

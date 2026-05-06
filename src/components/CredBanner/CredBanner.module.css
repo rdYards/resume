@@ -47,3 +47,17 @@
     text-align: left;
     color: var(--text-light-1);
 }
+
+@media (max-width: 600px) {
+    .cred_banner_wrapper {
+        flex-direction: column;
+    }
+    
+    .image {
+        margin-bottom: 2rem;
+    }
+    
+    .content {
+        border-radius: 30px;
+    };
+}

@@ -75,7 +75,6 @@ main {
     width: calc(100% - 200px);
     max-width: 1200px;
     margin: 0 auto 0 2.5rem;
-    padding-right: 20px;
 }
 
 section {
@@ -185,29 +184,29 @@ img {
         padding: 0.5rem;
         width: 100%;
     }
-    
+
     .sidebar img {
         padding: 0;
         margin: 0;
     }
-    
+
     .sidebar header {
-        padding: .5rem;
+        padding: 0.5rem;
     }
-    
+
     .sidebar header a {
         font-size: 1.5rem;
     }
-    
+
     .sidebar nav {
         display: flex;
         flex-direction: row-reverse;
         border-radius: 0;
         box-shadow: none;
     }
-    
+
     .sidebar nav img {
-        padding: .5rem;
+        padding: 0.5rem;
     }
 
     main {
@@ -218,5 +217,33 @@ img {
 
     section {
         width: 95%;
+    }
+}
+
+@media (max-width: 600px) {
+    section {
+        margin-top: 1rem;
+    }
+    
+    #SidebarIcon {
+        display: none;
+    }
+
+    .sidebar {
+        flex-direction: column-reverse;
+    }
+
+    .sidebar header {
+        padding: 0;
+    }
+
+    .sidebar nav {
+        align-self: center;
+        margin: 0 auto;
+    }
+
+    .sidebar nav a {
+        font-size: 1rem;
+        margin: 0.25rem;
     }
 }

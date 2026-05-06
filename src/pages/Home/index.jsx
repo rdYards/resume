@@ -23,7 +23,7 @@ export function Home() {
           <h1>Alexander Eastman</h1>
           <h3>Software Engineering, DevOps</h3>
         </div>
-        <img src={codeImg} alt="Professionally done code" />
+        <img id="welcome-photo" src={codeImg} alt="Professionally done code" />
       </section>
 
       {/* Work and EDU */}
@@ -164,7 +164,7 @@ export function Home() {
           <Banner
             prog="in-progress"
             mode="light"
-            title="Homelab Modern"
+            title="Homelab"
             description="Modern homelab to learn enterprise focused enviroments."
             href=""
             skills={[
